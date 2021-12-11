@@ -1,0 +1,127 @@
+nav {
+  text-align: right;
+  background-color: #2d6b88;
+  width: 60%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+nav ul li a:hover {
+  background-color: #8ec2d6;
+  color: black;
+}
+
+.container {
+  margin-top: 5;
+}
+.container .card {
+  padding: 0;
+  width: 60%;
+  height: 860px;
+  background-color: #8ec2d6;
+}
+.container .card .judul {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 4em;
+  font-style: bold;
+  color: #2d6b88;
+}
+.container .card .judul .tagline {
+  color: #7A5400;
+  font-size: 30px;
+  padding: 0px;
+  margin-top: -50px;
+}
+.container .card .konten {
+  float: left;
+  width: 59%;
+  height: 300px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 21px;
+  color: #CCC;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.container .card .konten .judulart {
+  padding: 0;
+  text-align: center;
+  color: black;
+  padding-top: 3px;
+}
+.container .card .konten .judulart > .artikel {
+  background-color: #FFDA66;
+  padding: 0px;
+  margin: 3px 3px;
+  border-radius: 3px;
+}
+.container .card .konten .artikel > h2, .container .card .konten p {
+  margin: 4px;
+  font-size: 1em;
+  text-align: left;
+}
+.container .card aside {
+  float: right;
+  width: 35%;
+  height: 300px;
+  background-color: #DB9200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: black;
+  margin-right: 25px;
+  line-height: 16px;
+  text-align: center;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.row {
+  background-color: #2d6b88;
+  padding: 0px;
+  width: 60%;
+  height: 300px;
+}
+.row .column {
+  float: left;
+  width: 20%;
+  padding: 40px;
+}
+.row .column li {
+  list-style: none;
+}
+.row .column li a {
+  text-decoration: none;
+  overflow: hidden;
+  color: black;
+}
+.row .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 200px) {
+  .row .column {
+    width: 60%;
+  }
+}
+
+/*# sourceMappingURL=index2.css.map */
